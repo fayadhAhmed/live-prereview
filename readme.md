@@ -95,6 +95,7 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+* you will need only livePreview.js file 
 
 Download livePreview.js file and add it to the project and link it to the target file 
 * script
