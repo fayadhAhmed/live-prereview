@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>live uploade images</title>
+</head>
+<body>
+    
+    <div class="">
+        <samp class="position-absolute text-light">X</samp>
+        <img src="" alt="" id="displayImage">
+    </div>
+    <div class="col-3 my-3 test"  onclick="removeFromUploads(event)">
+        <span class="position-absolute text-light" id="1659193278351">X</span>
+        <img class="w-100" src="https://via.placeholder.com/300.png/09f/fff">
+    </div>
+    <div class="row" id="livePreviewImageContainer"></div>
+    
+    <form action="" method="post" enctype="multipart/form-data">
+
+        <input type="file" name="imageUpload" id="imageUpload" multiple>
+        <input type="submint">
+
+        </div>
+        <div class=""></div>
+    </form>
+    <script>
+
+    /*
+    *please fill thefields tomake tthe library works*
+    uploadImageInput = upload file input id;
+    livePreviewImageContainer = the container the image shoud be id;
+    divStyle = it array to style the div contan image how should an array be like ["class", "class",]
+    mageStyle = it array to style the image how should an array be like ["class", "class",]
+    */
+
+        // const uploadImageInput = document.getElementById("#id");
+        // let livePreviewImageContainer = document.getElementById("#id");
+        // divStyle = ["class", "class", "class"];
+        // imageStyle = ["class", "class", "class"];
+
+        const uploadImageInput = document.getElementById("imageUpload");
+        let livePreviewImageContainer = document.getElementById("livePreviewImageContainer");
+        divStyle = ["class", "class", "class"];
+        imageStyle = ["class", "class", "class"];
+        
+    </script>
+    <script src="asstes/js/livePreview.js"></script>
+</body>
+</html>
